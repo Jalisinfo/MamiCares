@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1045DB691FA484C2004D7932 /* RegistrationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1045DB681FA484C2004D7932 /* RegistrationVC.m */; };
+		1045DB6C1FA87AE1004D7932 /* ForgotPasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1045DB6B1FA87AE1004D7932 /* ForgotPasswordVC.m */; };
+		1074F6FB1F97BA4200BB6E3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1074F6FA1F97BA4200BB6E3F /* AppDelegate.m */; };
+		1074F7071F97BA4200BB6E3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1074F7051F97BA4200BB6E3F /* Main.storyboard */; };
+		1074F7091F97BA4200BB6E3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1074F7081F97BA4200BB6E3F /* Assets.xcassets */; };
+		1074F70C1F97BA4200BB6E3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1074F70A1F97BA4200BB6E3F /* LaunchScreen.storyboard */; };
+		1074F70F1F97BA4200BB6E3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1074F70E1F97BA4200BB6E3F /* main.m */; };
+		1074F7191F97BA4300BB6E3F /* MamiCaresTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1074F7181F97BA4300BB6E3F /* MamiCaresTests.m */; };
+		1074F7241F97BA4300BB6E3F /* MamiCaresUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1074F7231F97BA4300BB6E3F /* MamiCaresUITests.m */; };
+		1074F7341F97BB1F00BB6E3F /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1074F7331F97BB1F00BB6E3F /* HomeVC.m */; };
+		1074F7381F97BC3800BB6E3F /* InitialVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1074F7371F97BC3800BB6E3F /* InitialVC.m */; };
+		1074F73C1F97BC7300BB6E3F /* NotificationsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1074F73B1F97BC7300BB6E3F /* NotificationsVC.m */; };
+		52052379BD3BA02F46D7C2FB /* libPods-MamiCaresTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 098FACB9287C00821D9838A9 /* libPods-MamiCaresTests.a */; };
+		C9C04D76C184227B9A18ABD4 /* libPods-MamiCares.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E1CC9D2DC8DB76E6DE4D780 /* libPods-MamiCares.a */; };
+		E4C2C848D0EC800A88BA573D /* libPods-MamiCaresUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D04A8FB50037BAEE7BB2C51 /* libPods-MamiCaresUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1074F7151F97BA4200BB6E3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1074F6EE1F97BA4200BB6E3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1074F6F51F97BA4200BB6E3F;
+			remoteInfo = MamiCares;
+		};
+		1074F7201F97BA4300BB6E3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1074F6EE1F97BA4200BB6E3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1074F6F51F97BA4200BB6E3F;
+			remoteInfo = MamiCares;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01DDA5260005CDBCC5F5CFC5 /* Pods-MamiCares.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamiCares.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MamiCares/Pods-MamiCares.debug.xcconfig"; sourceTree = "<group>"; };
+		098FACB9287C00821D9838A9 /* libPods-MamiCaresTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MamiCaresTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1045DB671FA484C2004D7932 /* RegistrationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegistrationVC.h; sourceTree = "<group>"; };
+		1045DB681FA484C2004D7932 /* RegistrationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistrationVC.m; sourceTree = "<group>"; };
+		1045DB6A1FA87AE1004D7932 /* ForgotPasswordVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForgotPasswordVC.h; sourceTree = "<group>"; };
+		1045DB6B1FA87AE1004D7932 /* ForgotPasswordVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgotPasswordVC.m; sourceTree = "<group>"; };
+		1074F6F61F97BA4200BB6E3F /* MamiCares.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MamiCares.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1074F6F91F97BA4200BB6E3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1074F6FA1F97BA4200BB6E3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1074F7061F97BA4200BB6E3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1074F7081F97BA4200BB6E3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1074F70B1F97BA4200BB6E3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1074F70D1F97BA4200BB6E3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1074F70E1F97BA4200BB6E3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1074F7141F97BA4200BB6E3F /* MamiCaresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MamiCaresTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1074F7181F97BA4300BB6E3F /* MamiCaresTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MamiCaresTests.m; sourceTree = "<group>"; };
+		1074F71A1F97BA4300BB6E3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1074F71F1F97BA4300BB6E3F /* MamiCaresUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MamiCaresUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1074F7231F97BA4300BB6E3F /* MamiCaresUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MamiCaresUITests.m; sourceTree = "<group>"; };
+		1074F7251F97BA4300BB6E3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1074F7321F97BB1F00BB6E3F /* HomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		1074F7331F97BB1F00BB6E3F /* HomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		1074F7361F97BC3800BB6E3F /* InitialVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InitialVC.h; sourceTree = "<group>"; };
+		1074F7371F97BC3800BB6E3F /* InitialVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InitialVC.m; sourceTree = "<group>"; };
+		1074F73A1F97BC7300BB6E3F /* NotificationsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationsVC.h; sourceTree = "<group>"; };
+		1074F73B1F97BC7300BB6E3F /* NotificationsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationsVC.m; sourceTree = "<group>"; };
+		10BC734A1FAC6DF700610ACD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		24B352DE20FADCFA82AF595F /* Pods-MamiCaresUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamiCaresUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MamiCaresUITests/Pods-MamiCaresUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		64C257C7C8B535C0FA9F6A3D /* Pods-MamiCaresTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamiCaresTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MamiCaresTests/Pods-MamiCaresTests.debug.xcconfig"; sourceTree = "<group>"; };
+		720AED5B05E87A990F84777E /* Pods-MamiCares.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamiCares.release.xcconfig"; path = "Pods/Target Support Files/Pods-MamiCares/Pods-MamiCares.release.xcconfig"; sourceTree = "<group>"; };
+		801E5D51A74F9AC4DAD11277 /* Pods-MamiCaresTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamiCaresTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MamiCaresTests/Pods-MamiCaresTests.release.xcconfig"; sourceTree = "<group>"; };
+		8D04A8FB50037BAEE7BB2C51 /* libPods-MamiCaresUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MamiCaresUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E1CC9D2DC8DB76E6DE4D780 /* libPods-MamiCares.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MamiCares.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C08673F2B6BCACAA2FC6D262 /* Pods-MamiCaresUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamiCaresUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MamiCaresUITests/Pods-MamiCaresUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1074F6F31F97BA4200BB6E3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C04D76C184227B9A18ABD4 /* libPods-MamiCares.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1074F7111F97BA4200BB6E3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52052379BD3BA02F46D7C2FB /* libPods-MamiCaresTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1074F71C1F97BA4300BB6E3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4C2C848D0EC800A88BA573D /* libPods-MamiCaresUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1045DB661FA484A6004D7932 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				1045DB671FA484C2004D7932 /* RegistrationVC.h */,
+				1045DB681FA484C2004D7932 /* RegistrationVC.m */,
+				1045DB6A1FA87AE1004D7932 /* ForgotPasswordVC.h */,
+				1045DB6B1FA87AE1004D7932 /* ForgotPasswordVC.m */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		1074F6ED1F97BA4200BB6E3F = {
+			isa = PBXGroup;
+			children = (
+				1074F6F81F97BA4200BB6E3F /* MamiCares */,
+				1074F7171F97BA4200BB6E3F /* MamiCaresTests */,
+				1074F7221F97BA4300BB6E3F /* MamiCaresUITests */,
+				1074F6F71F97BA4200BB6E3F /* Products */,
+				10BC73491FAC6DF600610ACD /* Frameworks */,
+				84981AB983D6E42BA8538C87 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		1074F6F71F97BA4200BB6E3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1074F6F61F97BA4200BB6E3F /* MamiCares.app */,
+				1074F7141F97BA4200BB6E3F /* MamiCaresTests.xctest */,
+				1074F71F1F97BA4300BB6E3F /* MamiCaresUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1074F6F81F97BA4200BB6E3F /* MamiCares */ = {
+			isa = PBXGroup;
+			children = (
+				1045DB661FA484A6004D7932 /* Registration */,
+				1074F7391F97BC5400BB6E3F /* Notifications */,
+				1074F7351F97BBD200BB6E3F /* Initial */,
+				1074F7311F97BAE200BB6E3F /* Home */,
+				1074F6F91F97BA4200BB6E3F /* AppDelegate.h */,
+				1074F6FA1F97BA4200BB6E3F /* AppDelegate.m */,
+				1074F7051F97BA4200BB6E3F /* Main.storyboard */,
+				1074F7081F97BA4200BB6E3F /* Assets.xcassets */,
+				1074F70A1F97BA4200BB6E3F /* LaunchScreen.storyboard */,
+				1074F70D1F97BA4200BB6E3F /* Info.plist */,
+				1074F70E1F97BA4200BB6E3F /* main.m */,
+			);
+			path = MamiCares;
+			sourceTree = "<group>";
+		};
+		1074F7171F97BA4200BB6E3F /* MamiCaresTests */ = {
+			isa = PBXGroup;
+			children = (
+				1074F7181F97BA4300BB6E3F /* MamiCaresTests.m */,
+				1074F71A1F97BA4300BB6E3F /* Info.plist */,
+			);
+			path = MamiCaresTests;
+			sourceTree = "<group>";
+		};
+		1074F7221F97BA4300BB6E3F /* MamiCaresUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1074F7231F97BA4300BB6E3F /* MamiCaresUITests.m */,
+				1074F7251F97BA4300BB6E3F /* Info.plist */,
+			);
+			path = MamiCaresUITests;
+			sourceTree = "<group>";
+		};
+		1074F7311F97BAE200BB6E3F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1074F7321F97BB1F00BB6E3F /* HomeVC.h */,
+				1074F7331F97BB1F00BB6E3F /* HomeVC.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1074F7351F97BBD200BB6E3F /* Initial */ = {
+			isa = PBXGroup;
+			children = (
+				1074F7361F97BC3800BB6E3F /* InitialVC.h */,
+				1074F7371F97BC3800BB6E3F /* InitialVC.m */,
+			);
+			path = Initial;
+			sourceTree = "<group>";
+		};
+		1074F7391F97BC5400BB6E3F /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				1074F73A1F97BC7300BB6E3F /* NotificationsVC.h */,
+				1074F73B1F97BC7300BB6E3F /* NotificationsVC.m */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		10BC73491FAC6DF600610ACD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10BC734A1FAC6DF700610ACD /* CFNetwork.framework */,
+				9E1CC9D2DC8DB76E6DE4D780 /* libPods-MamiCares.a */,
+				098FACB9287C00821D9838A9 /* libPods-MamiCaresTests.a */,
+				8D04A8FB50037BAEE7BB2C51 /* libPods-MamiCaresUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84981AB983D6E42BA8538C87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01DDA5260005CDBCC5F5CFC5 /* Pods-MamiCares.debug.xcconfig */,
+				720AED5B05E87A990F84777E /* Pods-MamiCares.release.xcconfig */,
+				64C257C7C8B535C0FA9F6A3D /* Pods-MamiCaresTests.debug.xcconfig */,
+				801E5D51A74F9AC4DAD11277 /* Pods-MamiCaresTests.release.xcconfig */,
+				24B352DE20FADCFA82AF595F /* Pods-MamiCaresUITests.debug.xcconfig */,
+				C08673F2B6BCACAA2FC6D262 /* Pods-MamiCaresUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1074F6F51F97BA4200BB6E3F /* MamiCares */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1074F7281F97BA4300BB6E3F /* Build configuration list for PBXNativeTarget "MamiCares" */;
+			buildPhases = (
+				139E2A069EC7BA49AFC2434A /* [CP] Check Pods Manifest.lock */,
+				1074F6F21F97BA4200BB6E3F /* Sources */,
+				1074F6F31F97BA4200BB6E3F /* Frameworks */,
+				1074F6F41F97BA4200BB6E3F /* Resources */,
+				9C434E2810E292C86E11522C /* [CP] Embed Pods Frameworks */,
+				B8EE80FDECF95EFDA8A85BBA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MamiCares;
+			productName = MamiCares;
+			productReference = 1074F6F61F97BA4200BB6E3F /* MamiCares.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1074F7131F97BA4200BB6E3F /* MamiCaresTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1074F72B1F97BA4300BB6E3F /* Build configuration list for PBXNativeTarget "MamiCaresTests" */;
+			buildPhases = (
+				E25F6F69F32E1A777610B71A /* [CP] Check Pods Manifest.lock */,
+				1074F7101F97BA4200BB6E3F /* Sources */,
+				1074F7111F97BA4200BB6E3F /* Frameworks */,
+				1074F7121F97BA4200BB6E3F /* Resources */,
+				393C502EE8EF91FB610A29A2 /* [CP] Embed Pods Frameworks */,
+				5ABBC5A7DAAA8491D1E77F26 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1074F7161F97BA4200BB6E3F /* PBXTargetDependency */,
+			);
+			name = MamiCaresTests;
+			productName = MamiCaresTests;
+			productReference = 1074F7141F97BA4200BB6E3F /* MamiCaresTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1074F71E1F97BA4300BB6E3F /* MamiCaresUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1074F72E1F97BA4300BB6E3F /* Build configuration list for PBXNativeTarget "MamiCaresUITests" */;
+			buildPhases = (
+				B3FEB75F869DFCBC7D4B76E8 /* [CP] Check Pods Manifest.lock */,
+				1074F71B1F97BA4300BB6E3F /* Sources */,
+				1074F71C1F97BA4300BB6E3F /* Frameworks */,
+				1074F71D1F97BA4300BB6E3F /* Resources */,
+				3AADFA6CC6FA8C7DD56397A8 /* [CP] Embed Pods Frameworks */,
+				F02264267D50BEFD569454B2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1074F7211F97BA4300BB6E3F /* PBXTargetDependency */,
+			);
+			name = MamiCaresUITests;
+			productName = MamiCaresUITests;
+			productReference = 1074F71F1F97BA4300BB6E3F /* MamiCaresUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1074F6EE1F97BA4200BB6E3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "___JMC Technology Enterprise___";
+				TargetAttributes = {
+					1074F6F51F97BA4200BB6E3F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					1074F7131F97BA4200BB6E3F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1074F6F51F97BA4200BB6E3F;
+					};
+					1074F71E1F97BA4300BB6E3F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1074F6F51F97BA4200BB6E3F;
+					};
+				};
+			};
+			buildConfigurationList = 1074F6F11F97BA4200BB6E3F /* Build configuration list for PBXProject "MamiCares" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1074F6ED1F97BA4200BB6E3F;
+			productRefGroup = 1074F6F71F97BA4200BB6E3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1074F6F51F97BA4200BB6E3F /* MamiCares */,
+				1074F7131F97BA4200BB6E3F /* MamiCaresTests */,
+				1074F71E1F97BA4300BB6E3F /* MamiCaresUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1074F6F41F97BA4200BB6E3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1074F70C1F97BA4200BB6E3F /* LaunchScreen.storyboard in Resources */,
+				1074F7091F97BA4200BB6E3F /* Assets.xcassets in Resources */,
+				1074F7071F97BA4200BB6E3F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1074F7121F97BA4200BB6E3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1074F71D1F97BA4300BB6E3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		139E2A069EC7BA49AFC2434A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MamiCares-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		393C502EE8EF91FB610A29A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MamiCaresTests/Pods-MamiCaresTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AADFA6CC6FA8C7DD56397A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MamiCaresUITests/Pods-MamiCaresUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5ABBC5A7DAAA8491D1E77F26 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MamiCaresTests/Pods-MamiCaresTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C434E2810E292C86E11522C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MamiCares/Pods-MamiCares-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3FEB75F869DFCBC7D4B76E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MamiCaresUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8EE80FDECF95EFDA8A85BBA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MamiCares/Pods-MamiCares-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E25F6F69F32E1A777610B71A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MamiCaresTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F02264267D50BEFD569454B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MamiCaresUITests/Pods-MamiCaresUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1074F6F21F97BA4200BB6E3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1074F73C1F97BC7300BB6E3F /* NotificationsVC.m in Sources */,
+				1074F7341F97BB1F00BB6E3F /* HomeVC.m in Sources */,
+				1074F7381F97BC3800BB6E3F /* InitialVC.m in Sources */,
+				1045DB6C1FA87AE1004D7932 /* ForgotPasswordVC.m in Sources */,
+				1045DB691FA484C2004D7932 /* RegistrationVC.m in Sources */,
+				1074F70F1F97BA4200BB6E3F /* main.m in Sources */,
+				1074F6FB1F97BA4200BB6E3F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1074F7101F97BA4200BB6E3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1074F7191F97BA4300BB6E3F /* MamiCaresTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1074F71B1F97BA4300BB6E3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1074F7241F97BA4300BB6E3F /* MamiCaresUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1074F7161F97BA4200BB6E3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1074F6F51F97BA4200BB6E3F /* MamiCares */;
+			targetProxy = 1074F7151F97BA4200BB6E3F /* PBXContainerItemProxy */;
+		};
+		1074F7211F97BA4300BB6E3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1074F6F51F97BA4200BB6E3F /* MamiCares */;
+			targetProxy = 1074F7201F97BA4300BB6E3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1074F7051F97BA4200BB6E3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1074F7061F97BA4200BB6E3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1074F70A1F97BA4200BB6E3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1074F70B1F97BA4200BB6E3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1074F7261F97BA4300BB6E3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1074F7271F97BA4300BB6E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1074F7291F97BA4300BB6E3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01DDA5260005CDBCC5F5CFC5 /* Pods-MamiCares.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WXAEE97JZ;
+				INFOPLIST_FILE = MamiCares/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmc.technology.MamiCares;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1074F72A1F97BA4300BB6E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 720AED5B05E87A990F84777E /* Pods-MamiCares.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WXAEE97JZ;
+				INFOPLIST_FILE = MamiCares/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmc.technology.MamiCares;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1074F72C1F97BA4300BB6E3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64C257C7C8B535C0FA9F6A3D /* Pods-MamiCaresTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WXAEE97JZ;
+				INFOPLIST_FILE = MamiCaresTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmc.technology.MamiCaresTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MamiCares.app/MamiCares";
+			};
+			name = Debug;
+		};
+		1074F72D1F97BA4300BB6E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 801E5D51A74F9AC4DAD11277 /* Pods-MamiCaresTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WXAEE97JZ;
+				INFOPLIST_FILE = MamiCaresTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmc.technology.MamiCaresTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MamiCares.app/MamiCares";
+			};
+			name = Release;
+		};
+		1074F72F1F97BA4300BB6E3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24B352DE20FADCFA82AF595F /* Pods-MamiCaresUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WXAEE97JZ;
+				INFOPLIST_FILE = MamiCaresUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmc.technology.MamiCaresUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MamiCares;
+			};
+			name = Debug;
+		};
+		1074F7301F97BA4300BB6E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C08673F2B6BCACAA2FC6D262 /* Pods-MamiCaresUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WXAEE97JZ;
+				INFOPLIST_FILE = MamiCaresUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmc.technology.MamiCaresUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MamiCares;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1074F6F11F97BA4200BB6E3F /* Build configuration list for PBXProject "MamiCares" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1074F7261F97BA4300BB6E3F /* Debug */,
+				1074F7271F97BA4300BB6E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1074F7281F97BA4300BB6E3F /* Build configuration list for PBXNativeTarget "MamiCares" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1074F7291F97BA4300BB6E3F /* Debug */,
+				1074F72A1F97BA4300BB6E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1074F72B1F97BA4300BB6E3F /* Build configuration list for PBXNativeTarget "MamiCaresTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1074F72C1F97BA4300BB6E3F /* Debug */,
+				1074F72D1F97BA4300BB6E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1074F72E1F97BA4300BB6E3F /* Build configuration list for PBXNativeTarget "MamiCaresUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1074F72F1F97BA4300BB6E3F /* Debug */,
+				1074F7301F97BA4300BB6E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1074F6EE1F97BA4200BB6E3F /* Project object */;
+}
